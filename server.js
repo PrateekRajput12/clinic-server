@@ -11,7 +11,8 @@ const app = express();
 app.use(cors({
     origin: [
         "https://health-roan-omega.vercel.app",
-        "https://clinic-three-tau.vercel.app/",
+        "https://clinic-three-tau.vercel.app",
+        "https://care4u-inky.vercel.app",
         "http://localhost:5173"
     ],
     credentials: true
